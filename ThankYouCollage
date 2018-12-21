@@ -1,1 +1,26 @@
+PImage img;
 
+void setup() {
+  size(600,600);
+  img = loadImage("succulent plant.jpg");
+  image(img, 0, 0);
+  
+
+fill(#00FF00,70);
+ellipse(520,560,200,200);
+ellipse(560,440,120,120);
+ellipse(420,480,150,150);
+ellipse(380,540,120,120);
+ellipse(80,80,200,200);
+ellipse(70,200,150,150);
+
+{
+   frameRate(5); 
+
+
+  
+textSize(75);
+text("Thank", 200,300);
+text("You",250,400);
+}
+}
